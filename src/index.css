@@ -1,13 +1,91 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  width: 100%;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+header {
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  display: flex;
+  justify-content:space-around;
+  height: 80px;
+  
+}
+
+header #Play {
+  height: 60px;
+  margin: 10px;
+  width: 100px;
+  
+}
+
+header #Start {
+  height: 60px;
+  margin: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+header #End {
+  height: 60px;
+  margin: 10px;
+  width: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header #Type {
+  height: 60px;
+  margin: 10px;
+  width: 100px;
+}
+
+header #Remove {
+  height: 60px;
+  margin: 10px;
+  width: 100px;
+}
+
+header button {
+  border: 4px dashed black;
+  background-color: transparent;
+  position: relative;
+  transition: all .35s;
+  text-decoration: none;
+}
+
+header select {
+  border: 4px dashed black;
+  background-color: transparent;
+}
+
+header button:hover{
+  border: 4px solid black;
+  background-color: rgba(0, 0, 0, 0.24);
+}
+
+header select:hover{
+  border: 5px solid black;
+  background-color: rgba(0, 0, 0, 0.24)
+}
+
+td {
+  border: 1px black solid;
+  height: 20px;
+  width: 20px;
+}
+
+table {
+  border-collapse: collapse;
+}
+
+main {
+  display: grid;
+  height: 700px;
+  border: 3px black solid;
 }
