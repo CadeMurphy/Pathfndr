@@ -75,9 +75,20 @@ header select:hover{
 }
 
 td {
-  border: 1px black solid;
-  height: 20px;
-  width: 20px;
+  border: 1px lightblue solid;
+  text-align: center; /* Center the content horizontally */
+  vertical-align: middle; /* Center the content vertically */
+  height: 1em;
+  width: 1em;
+}
+
+
+td svg {
+  display: block; /* Ensures the SVG is centered within the td */
+  max-width: 100%; /* Prevents the SVG from expanding beyond the td */
+  max-height: 100%; /* Prevents the SVG from expanding beyond the td */
+  margin: 0 auto; /* Center the SVG horizontally */
+  
 }
 
 table {
@@ -86,6 +97,7 @@ table {
 
 main {
   display: grid;
-  height: 700px;
-  border: 3px black solid;
+  height: 89em;
+
+  margin: 2em;
 }
